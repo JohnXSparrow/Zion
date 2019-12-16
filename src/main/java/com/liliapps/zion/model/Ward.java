@@ -51,6 +51,10 @@ public class Ward {
 		this.lastProcess = lastProcess;
 	}
 
+	public Ward() {
+		super();
+	}	
+	
 	/**
 	 * LastProcess = Gera moedas por hora baseado na quantidade de ala.
 	 * 

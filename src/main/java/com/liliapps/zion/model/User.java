@@ -13,6 +13,8 @@ import javax.persistence.OneToOne;
 
 import org.hibernate.annotations.Type;
 
+import com.fasterxml.jackson.annotation.JsonIgnore;
+
 @Entity
 public class User {
 
@@ -114,6 +116,7 @@ public class User {
 		this.facebookId = facebookId;
 	}
 
+	@JsonIgnore
 	public Balance getBalance() {
 		return balance;
 	}
@@ -122,6 +125,7 @@ public class User {
 		this.balance = balance;
 	}
 
+	@JsonIgnore
 	public Temple getTemple() {
 		return temple;
 	}
@@ -130,6 +134,7 @@ public class User {
 		this.temple = temple;
 	}
 
+	@JsonIgnore
 	public Stake getStake() {
 		return stake;
 	}
@@ -138,6 +143,7 @@ public class User {
 		this.stake = stake;
 	}
 
+	@JsonIgnore
 	public Ward getWard() {
 		return ward;
 	}
@@ -146,6 +152,7 @@ public class User {
 		this.ward = ward;
 	}
 
+	@JsonIgnore
 	public Person getPerson() {
 		return person;
 	}
@@ -154,6 +161,7 @@ public class User {
 		this.person = person;
 	}
 
+	@JsonIgnore
 	public Missionary getMissionary() {
 		return missionary;
 	}

@@ -49,4 +49,8 @@ public class Balance {
 		this.gemQuantity = gemQuantity;
 	}
 
+	public Balance() {
+		super();
+	}
+	
 }

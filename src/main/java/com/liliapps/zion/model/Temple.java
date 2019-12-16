@@ -49,4 +49,8 @@ public class Temple {
 		this.imageId = imageId;
 	}
 
+	public Temple() {
+		super();
+	}
+
 }

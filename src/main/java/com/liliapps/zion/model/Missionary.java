@@ -37,4 +37,8 @@ public class Missionary {
 		this.quantity = quantity;
 	}
 
+	public Missionary() {
+		super();
+	}
+
 }

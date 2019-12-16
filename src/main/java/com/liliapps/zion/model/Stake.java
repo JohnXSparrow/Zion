@@ -37,4 +37,8 @@ public class Stake {
 		this.quantity = quantity;
 	}
 
+	public Stake() {
+		super();
+	}
+	
 }

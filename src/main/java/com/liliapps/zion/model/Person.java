@@ -63,4 +63,8 @@ public class Person {
 		this.lastTimeAlter = lastTimeAlter;
 	}
 
+	public Person() {
+		super();
+	}
+
 }
